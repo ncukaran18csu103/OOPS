@@ -228,7 +228,7 @@ int main()
 	student *s5=new student(*s4);
 }
 
-copy assignment opeartor (as the cntuctor call all one time whilw creation of object we can't mae use of it while we have go changes after constructor is formed to do this kind of operation we have to g for copy assignement
+//copy assignment opeartor (as the cntuctor call all one time whilw creation of object we can't mae use of it while we have go changes after constructor is formed to do this kind of operation we have to g for copy assignement
 #include<iostream>
 using namespace std;
 #include"student.cpp"
@@ -243,8 +243,8 @@ int main()
 	s1=*s3; //dynamic to staticlly
 }
 
-destructor //when object leaves memory then destructr is called or exitisting from memory
-->same name of as of class ,no return type,no input aarguments,denoted by ~object name(){}
+//destructor //when object leaves memory then destructr is called or exitisting from memory
+/*->same name of as of class ,no return type,no input aarguments,denoted by ~object name(){}*/
 /*student .cpp*/ 
 /*In student class we hav constructor and destructor call khuse deaflut */
 /*code*/
